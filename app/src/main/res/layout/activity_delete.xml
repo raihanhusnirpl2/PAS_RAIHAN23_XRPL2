@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeleteActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+
+            android:id="@+id/WhatsApptitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:paddingLeft="155dp"
+            android:text="Contact"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.195" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_txt_name_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/white"
+        android:hint="Name">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/txt_name_edit"
+            android:layout_width="380dp"
+            android:background="@drawable/edittext_bg"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_gravity="center" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_txt_phone_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/white"
+        android:hint="Phone">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/txt_phone_edit"
+            android:layout_width="380dp"
+            android:background="@drawable/edittext_bg"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_gravity="center"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_txt_email_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/white"
+        android:hint="Email">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_email_edit"
+
+            android:layout_width="380dp"
+            android:background="@drawable/edittext_bg"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:layout_gravity="center" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:text="Delete Data" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

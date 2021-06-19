@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "812824931607",
+    "project_id": "pas-23raihan-xrpl2",
+    "storage_bucket": "pas-23raihan-xrpl2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812824931607:android:3ed82388a6c25ae8221b52",
+        "android_client_info": {
+          "package_name": "com.example.pas_23raihanxrpl2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812824931607-no8eiu3tm389lmgtpo6j71g4p032s8o2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr83asDesbT9lDPLilADmUnt_n0glH9wQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812824931607-no8eiu3tm389lmgtpo6j71g4p032s8o2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
